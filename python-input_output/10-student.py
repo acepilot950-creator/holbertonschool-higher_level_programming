@@ -15,8 +15,8 @@ class Student:
         """
         Return the dictionary representation of a Student instance.
 
-        If attrs is a list of strings, only attributes in this list are returned.
-        Otherwise, all attributes are returned.
+        If attrs is a list of strings, only attributes in this list
+        are returned. Otherwise, all attributes are returned.
         """
         if isinstance(attrs, list):
             result = {}
